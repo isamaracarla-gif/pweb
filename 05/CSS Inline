@@ -6,7 +6,7 @@
     </head>
 
     <body>
-        <h1>Exemplos de CSS</h1>
+        <h1 style="color: green;">Exemplos de CSS</h1>
         <h1>CSS Inline e Incorporado</h1>
         <p style="color: red;">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut ex expedita fugiat unde et dolorem quam reprehenderit,
