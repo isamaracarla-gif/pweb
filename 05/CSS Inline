@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+         <meta charset="UTF-8">
+        <meta name="viewport" content="width=devic-width, initial-scale=1.0">
         <title>CSS Inline</title>
-        <meta charset="utf-8"/>
     </head>
 
     <body>
