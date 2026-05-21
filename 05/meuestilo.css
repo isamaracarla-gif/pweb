@@ -6,14 +6,14 @@ body {
   background-color: #d8da3d }
 
 ul.navbar {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 
-  position: absolute;
-  top: 2em;
-  left: 1em;
-  width: 9em }
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
 
 h1 {
   font-family: Helvetica, Geneva, Arial,
