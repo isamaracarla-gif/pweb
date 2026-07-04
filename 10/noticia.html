@@ -1,75 +1,90 @@
 <!DOCTYPE html>
-    <html>
-        <head>
-            <title>Box Model</title>
-            <meta charset="UTF-8"/>
-        </head>
-        <body>
-            <nav class="conteiner">
-                <nav class="card">
-                    
-                <nav class="card">
-                     <h1>A fotógrafa que transformou uma TV em credencial na Copa </h1>
-                    <tr>
-                    <td colspan="1"><img src="https://veja.abril.com.br/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-30-at-18.22.09.jpeg?quality=70&strip=info&w=1170&h=720&crop=1"></td>
-                    <p>Francesa barrada pela Fifa criou tendência e ganhou apoio de Michael Olise </p>
-                    <p>1 Julho 2026</p></tr>
-                    </nav>
-                
-                <div class="card">
-                    <tr>
-                        <h1>Quanto tempo uma pessoa pode sobreviver sob os escombros após um terremoto?</h1>
-                    <td><img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/61f0/live/9f804180-716e-11f1-a4f8-ed826651ef10.jpg.webp"></td>
-                    <p>Oito dias atrás, no dia 24 de junho, dois terremotos de magnitude 7,2 e 7,5 atingiram a
-                       Venezuela com apenas um minuto de diferença. O segundo foi o mais forte a atingir o país desde 1900</p>
-                    <p>2 Julho 2026</p>
-                    </nav>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Portal de Notícias</title>
 
-                <nav class="card">
-                    <h1>A indústria global de falsos médicos feitos por IA que usa o medo para viralizar entre idosos no Brasil: 'Achei que fosse real'</h1>
-                   <td><img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/ddb2/live/1cbe6fc0-6ff1-11f1-b1db-af71d47507d6.jpg.webp"></td>
-                    <p>Vídeos gerados por IA com médicos viralizam entre idosos no Brasil e superam 70 milhões de visualizações</p>
-                    <p>1 Julho 2026</p>
-                </nav>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
 
-                <nav class="card">
-                    <h1>O pacto que uniu Brasil e outros países sul-americanos contra 'subversivos'</h1>
-                    <img src="https://ichef.bbci.co.uk/ace/ws/800/cpsprodpb/0115/live/91c38280-1257-11f1-808c-3f897f9a068e.jpg.webp">
-                    <p>Jovens e controladas por oligarquias, as repúblicas sul-americanas na virada do século 19 para o 20 ainda pisavam em ovos buscando uma estabilidade.</p>
-                    <p>1 Jlho 2026</p>
-                </nav>
+        header{
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
 
-                
-            </nav>
-            
-             <style>
-               .card {
-                width: 150px;
-                background: white;
-                border: 1px solid #ccc;
-                padding: 5px;
-                
-               }
-               .card img {
-                width: 150px;
-                height: 120px;
-                
-               }
-               .card p {
-                margin: 5px;
-               }
-                body{
-                    background: #d6d6d6;
-                }
-                .conteiner {
-                  display: flex;
-                  flex-wrap: wrap;
-                  float: left;
-                  font-family: "Verdana", Arial, Helvetica, sans-serif;
-                  font-size: 10px;
-                }
+        nav{
+            background-color: darkcyan;
+            text-align: center;
+            padding: 10px;
+        }
 
-             </style>
-             
-        </body>
-        </html>
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+        }
+
+        .container{
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .noticia{
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        footer{
+            background-color: teal;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Portal de Notícias</h1>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Política</a>
+        <a href="#">Economia</a>
+        <a href="#">Esportes</a>
+    </nav>
+
+    <div class="container">
+
+        <div class="noticia">
+            <h3>Preços no mercado livre operam próximos à estabilidade</h3>
+            <p>Notícia sobre economia.</p>
+        </div>
+
+        <div class="noticia">
+            <h3>Nobel da Paz: conheça os nomes cotados</h3>
+            <p>Notícia internacional.</p>
+        </div>
+
+        <div class="noticia">
+            <h3>Japão inicia segunda fase de despejo de água de Fukushima</h3>
+            <p>Atualizações do cenário internacional.</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Portal de Notícias</p>
+    </footer>
+
+</body>
+</html>
