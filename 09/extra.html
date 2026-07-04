@@ -1,90 +1,84 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Portal de Notícias</title>
+    <title>Posicionamento</title>
+    <meta charset="UTF-8" />
 
     <style>
         body{
-            font-family: Arial, sans-serif;
-            margin: 0;
+            margin:0;
         }
 
-        header{
-            background-color: teal;
-            color: white;
-            text-align: center;
-            padding: 20px;
+        #header{
+            text-align:center;
+            background-color:lightblue;
+            height:60px;
+            line-height:60px;
         }
 
-        nav{
-            background-color: darkcyan;
-            text-align: center;
-            padding: 10px;
+        #container{
+            display:flex;
+            height:500px;
         }
 
-        nav a{
-            color: white;
-            text-decoration: none;
-            margin: 15px;
+        #left{
+            width:25%;
+            background-color:lightcoral;
+            display:flex;
+            justify-content:center;
+            align-items:center;
         }
 
-        .container{
-            width: 90%;
-            margin: auto;
-            padding: 20px;
+        #center{
+            width:50%;
+            background-color:lightgreen;
+            display:flex;
+            justify-content:center;
+            align-items:center;
         }
 
-        .noticia{
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin-bottom: 15px;
+        #right{
+            width:25%;
+            background-color:lightcoral;
+            display:flex;
+            justify-content:center;
+            align-items:center;
         }
 
-        footer{
-            background-color: teal;
-            color: white;
-            text-align: center;
-            padding: 15px;
+        #footer{
+            background-color:lightpink;
+            height:50px;
+            line-height:50px;
+            text-align:center;
         }
     </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>Portal de Notícias</h1>
-    </header>
+    <div id="header">
+        Header 100%
+    </div>
 
-    <nav>
-        <a href="#">Início</a>
-        <a href="#">Política</a>
-        <a href="#">Economia</a>
-        <a href="#">Esportes</a>
-    </nav>
+    <div id="container">
 
-    <div class="container">
-
-        <div class="noticia">
-            <h3>Preços no mercado livre operam próximos à estabilidade</h3>
-            <p>Notícia sobre economia.</p>
+        <div id="left">
+            Left 25%
         </div>
 
-        <div class="noticia">
-            <h3>Nobel da Paz: conheça os nomes cotados</h3>
-            <p>Notícia internacional.</p>
+        <div id="center">
+            Center 50%
         </div>
 
-        <div class="noticia">
-            <h3>Japão inicia segunda fase de despejo de água de Fukushima</h3>
-            <p>Atualizações do cenário internacional.</p>
+        <div id="right">
+            Right 25%
         </div>
 
     </div>
 
-    <footer>
-        <p>© 2026 Portal de Notícias</p>
-    </footer>
+    <div id="footer">
+        Footer 100%
+    </div>
 
 </body>
 </html>
