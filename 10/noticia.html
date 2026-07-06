@@ -7,11 +7,147 @@
 </head>
 <body>
 
-    <h1>Exercício</h1>
+    
 
     <div class="container">
 
-        <div class="noticia">
+        
+        <style>
+*       {
+            margin:0;
+             padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#00695c;
+            color:white;
+            text-align:center;
+            padding:20px;
+        }
+
+        nav{
+            background:#004d40;
+            padding:15px;
+            text-align:center;
+     }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+             color:#ffeb3b;
+        }
+
+        .container{
+             width:90%;
+             margin:30px auto;
+            display:grid;
+             grid-template-columns:1fr 1fr;
+             gap:20px;
+        }
+
+        .noticia{
+            background:white;
+            padding:15px;
+            border-radius:8px;
+            display:flex;
+            gap:15px;
+            align-items:center;
+            box-shadow:0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .noticia img{
+            width:100px;
+            height:100px;
+            object-fit:cover;
+            border-radius:8px;
+        }
+
+        .noticia h3{
+             margin-bottom:10px;
+        }
+
+        .noticia p{
+             color:gray;
+        }
+
+        footer{
+            background:#00695c;
+            color:white;
+            text-align:center;
+             padding:20px;
+            margin-top:30px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>PORTAL DE NOTÍCIAS</h1>
+    <p>As principais notícias do dia</p>
+</header>
+
+<nav>
+    <a href="#">Início</a>
+    <a href="#">Política</a>
+    <a href="#">Economia</a>
+    <a href="#">Tecnologia</a>
+    <a href="#">Esportes</a>
+</nav>
+
+<main class="container">
+
+    <article class="noticia">
+        <img src="https://picsum.photos/100?1" alt="">
+        <div>
+            <h3>Preços no mercado livre operam próximos à estabilidade</h3>
+            <p>2 horas atrás</p>
+        </div>
+    </article>
+
+    <article class="noticia">
+        <img src="https://picsum.photos/100?2" alt="">
+        <div>
+            <h3>Nobel da Paz: conheça nomes cotados para o prêmio</h3>
+            <p>3 horas atrás</p>
+        </div>
+    </article>
+
+    <article class="noticia">
+        <img src="https://picsum.photos/100?3" alt="">
+        <div>
+            <h3>Três Poderes jamais devem avançar sobre competências</h3>
+            <p>4 horas atrás</p>
+        </div>
+    </article>
+
+    <article class="noticia">
+        <img src="https://picsum.photos/100?4" alt="">
+        <div>
+            <h3>Japão inicia segunda fase de despejo de água</h3>
+            <p>7 horas atrás</p>
+        </div>
+    </article>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Portal de Notícias - Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>oticia">
             <img src="img1.jpg" alt="">
             <div>
                 <h3>Preços no mercado livre operam próximos à estabilidade</h3>
